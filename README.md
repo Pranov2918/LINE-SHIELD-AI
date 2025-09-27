@@ -51,33 +51,6 @@ Python 3.9+
 
 Node.js and npm
 
-1. Setup:
-
-# Clone the repository
-git clone https://github.com/Pranov2918/LINE-SHIELD-AI.git
-cd LINE-SHIELD-AI
-
-# Setup Backend
-pip install -r requirements.txt
-
-# Setup Frontend
-cd frontend
-npm install
-cd ..
-2. Run the Application:
-Terminal 1: Start the Backend
-
-
-# In the main LINE-SHIELD-AI folder
-uvicorn main_final:app
-Terminal 2: Start the Frontend
-
-
-# In the /frontend folder
-npm start
-Terminal 3: Start the Sensor Simulator
-
-
 # In the main LINE-SHIELD-AI folder
 python stream_simulator.py
 Now, open your browser to http://localhost:3000 to see the live dashboard.
