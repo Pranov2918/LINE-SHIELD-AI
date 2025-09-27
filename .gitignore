@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node.js
+/frontend/node_modules
+/frontend/build
+.pnp
+.pnp.js
+
+# Data & AI Model
+*.csv
+*.h5
+
+# IDE & OS files
+.vscode/
+.DS_Store
